@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-textPrimary font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-primary hover:bg-primaryDark text-textPrimary rounded transition-colors duration-300 font-medium tracking-wide shadow-md;
+  }
+  .btn-secondary {
+    @apply px-6 py-3 bg-surface hover:bg-border text-textPrimary rounded border border-border transition-colors duration-300 font-medium;
+  }
+  .jaipur-arch {
+    @apply rounded-t-jaipur;
+  }
+}
