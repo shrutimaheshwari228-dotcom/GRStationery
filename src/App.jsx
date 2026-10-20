@@ -11,12 +11,18 @@ import Offers from './pages/Offers';
 import FAQ from './pages/FAQ';
 import Contact from './pages/Contact';
 
-// Scroll to top on route change
+// Scroll to top on route change & track dynamic SPA pageviews
 const ScrollToTop = () => {
-  const { pathname } = useLocation();
+  const location = useLocation();
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [pathname]);
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      event: 'page_view',
+      page_path: location.pathname + location.search + location.hash,
+      page_title: document.title
+    });
+  }, [location]);
   return null;
 };
 
