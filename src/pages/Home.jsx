@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { MessageCircle, CheckCircle2, ArrowRight } from 'lucide-react';
 import ProductCard from '../components/ProductCard';
@@ -7,6 +7,23 @@ import { getWhatsAppLink } from '../data/info';
 import { getAssetUrl } from '../utils/assetUrl';
 
 const Home = () => {
+  useEffect(() => {
+    document.title = "Find the Best Stationery Shop in Jaipur | GR & Company";
+    let metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute(
+        'content',
+        'Find popular stationery brands at GR & Company. Explore a wide range of school essentials, office supplies, notebooks, registers and art materials.'
+      );
+    } else {
+      metaDescription = document.createElement('meta');
+      metaDescription.name = 'description';
+      metaDescription.content =
+        'Find popular stationery brands at GR & Company. Explore a wide range of school essentials, office supplies, notebooks, registers and art materials.';
+      document.head.appendChild(metaDescription);
+    }
+  }, []);
+
   const featuredProducts = products.filter(p => p.featured).slice(0, 6);
 
   const features = [
