@@ -1,11 +1,7 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import {
-  loadSeoConfig,
-  resolvePageSeo,
-  buildLocalBusinessJsonLd,
-  SEO_UPDATED_EVENT,
-} from '../utils/seoStorage';
+import { defaultSeoConfig } from '../data/seoConfig';
+import { resolvePageSeo, buildLocalBusinessJsonLd } from '../utils/seoStorage';
 
 function upsertMeta(attrName, attrValue, content) {
   let tag = document.querySelector(`meta[${attrName}="${attrValue}"]`);
@@ -58,18 +54,9 @@ function upsertJsonLd(id, data) {
 
 const SeoManager = () => {
   const location = useLocation();
-  const [config, setConfig] = useState(() => loadSeoConfig());
 
   useEffect(() => {
-    const handleUpdate = (event) => {
-      setConfig(event.detail || loadSeoConfig());
-    };
-    window.addEventListener(SEO_UPDATED_EVENT, handleUpdate);
-    return () => window.removeEventListener(SEO_UPDATED_EVENT, handleUpdate);
-  }, []);
-
-  // Apply SEO tags whenever route or config changes
-  useEffect(() => {
+    const config = defaultSeoConfig;
     const pageSeo = resolvePageSeo(location.pathname, config);
 
     document.title = pageSeo.title;
@@ -101,15 +88,13 @@ const SeoManager = () => {
     upsertMeta('name', 'msvalidate.01', config.global.bingSiteVerification);
 
     // LocalBusiness JSON-LD Schema
-    if (config.schema?.enabled && location.pathname !== '/seo-admin') {
+    if (config.schema?.enabled) {
       upsertJsonLd('gr-local-business-schema', buildLocalBusinessJsonLd(config));
     } else {
       upsertJsonLd('gr-local-business-schema', null);
     }
-  }, [location.pathname, config]);
 
-  // Scroll to top & push SPA page_view to existing GTM dataLayer on route change
-  useEffect(() => {
+    // Scroll to top & push SPA page_view to existing GTM dataLayer
     window.scrollTo(0, 0);
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({

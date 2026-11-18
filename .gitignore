@@ -24,9 +24,10 @@ dist-ssr
 *.sw?
 .agents/
 
-# Scratch scripts
+# Scratch scripts & Private Local Backend Tools
 fetchImages.cjs
 getWikiUrls.cjs
 images.json
 testAsins.cjs
 testClearbit.cjs
+seo-admin/

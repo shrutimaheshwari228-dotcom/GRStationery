@@ -8,7 +8,6 @@ export const defaultSeoConfig = {
     bingSiteVerification: "",
     twitterHandle: "",
     gtmId: "GTM-WPX8HLPQ",
-    adminPasscode: "gr1234",
   },
   pages: {
     "/": {
@@ -158,7 +157,7 @@ export const defaultSeoConfig = {
   },
   robotsTxt: {
     allowAll: true,
-    disallowPaths: ["/seo-admin"],
+    disallowPaths: [],
     customRules: "",
   },
 };

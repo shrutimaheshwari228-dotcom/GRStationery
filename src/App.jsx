@@ -11,7 +11,6 @@ import Gallery from './pages/Gallery';
 import Offers from './pages/Offers';
 import FAQ from './pages/FAQ';
 import Contact from './pages/Contact';
-import SeoAdmin from './pages/SeoAdmin';
 
 function App() {
   return (
@@ -27,7 +26,6 @@ function App() {
           <Route path="/offers" element={<Offers />} />
           <Route path="/help" element={<FAQ />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/seo-admin" element={<SeoAdmin />} />
         </Routes>
       </Layout>
     </>
