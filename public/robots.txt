@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /seo-admin
+
+Sitemap: https://shrutimaheshwari228-dotcom.github.io/GRStationery/sitemap.xml

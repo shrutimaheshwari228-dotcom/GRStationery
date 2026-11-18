@@ -78,8 +78,11 @@ const Footer = () => {
 
         </div>
 
-        <div className="pt-8 border-t border-border/50 text-center text-textSecondary text-xs">
+        <div className="pt-8 border-t border-border/50 flex flex-col sm:flex-row items-center justify-between gap-2 text-textSecondary text-xs">
           <p>&copy; {new Date().getFullYear()} {businessInfo.name}. All rights reserved.</p>
+          <Link to="/seo-admin" className="text-textSecondary/60 hover:text-accent transition-colors">
+            SEO Admin
+          </Link>
         </div>
       </div>
     </footer>

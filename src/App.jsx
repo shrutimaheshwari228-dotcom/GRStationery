@@ -1,6 +1,7 @@
-import React, { useEffect } from 'react';
-import { Routes, Route, useLocation } from 'react-router-dom';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
+import SeoManager from './components/SeoManager';
 import Home from './pages/Home';
 import About from './pages/About';
 import Products from './pages/Products';
@@ -10,26 +11,12 @@ import Gallery from './pages/Gallery';
 import Offers from './pages/Offers';
 import FAQ from './pages/FAQ';
 import Contact from './pages/Contact';
-
-// Scroll to top on route change & track dynamic SPA pageviews
-const ScrollToTop = () => {
-  const location = useLocation();
-  useEffect(() => {
-    window.scrollTo(0, 0);
-    window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({
-      event: 'page_view',
-      page_path: location.pathname + location.search + location.hash,
-      page_title: document.title
-    });
-  }, [location]);
-  return null;
-};
+import SeoAdmin from './pages/SeoAdmin';
 
 function App() {
   return (
     <>
-      <ScrollToTop />
+      <SeoManager />
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -40,6 +27,7 @@ function App() {
           <Route path="/offers" element={<Offers />} />
           <Route path="/help" element={<FAQ />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/seo-admin" element={<SeoAdmin />} />
         </Routes>
       </Layout>
     </>
