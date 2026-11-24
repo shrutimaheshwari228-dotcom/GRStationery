@@ -1,4 +1,5 @@
 import { brands } from '../data/products';
+import { blogs } from '../data/blogs';
 
 export function resolveFullAssetUrl(path, baseUrl) {
   if (!path) return '';
@@ -71,6 +72,31 @@ export function resolvePageSeo(pathname, config) {
       ogImage,
       ogType: 'website',
     };
+  }
+
+  // Dynamic Blog Post page (/blog/:slug)
+  if (cleanPath.startsWith('/blog/')) {
+    const slug = decodeURIComponent(cleanPath.replace('/blog/', '')).toLowerCase();
+    const matchedBlog = blogs.find((b) => b.slug.toLowerCase() === slug);
+    if (matchedBlog) {
+      const title = `${matchedBlog.title} | ${config.global.siteName}`;
+      const description = matchedBlog.excerpt;
+      const keywords = matchedBlog.tags ? matchedBlog.tags.join(', ') : '';
+      const canonical = `${baseUrl}/#/blog/${matchedBlog.slug}`;
+      const ogImage = resolveFullAssetUrl(matchedBlog.image || config.global.defaultOgImage, baseUrl);
+
+      return {
+        title,
+        description,
+        keywords,
+        robots: config.global.defaultRobots || 'index, follow',
+        canonical,
+        ogTitle: matchedBlog.title,
+        ogDescription: description,
+        ogImage,
+        ogType: 'article',
+      };
+    }
   }
 
   // Fallback to Home SEO

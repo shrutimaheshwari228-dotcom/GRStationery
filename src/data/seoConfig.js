@@ -1,163 +1,152 @@
 export const defaultSeoConfig = {
-  global: {
-    siteName: "GR & Company Stationery",
-    baseUrl: "https://shrutimaheshwari228-dotcom.github.io/GRStationery",
-    defaultOgImage: "/assets/stationery_hero_v3.png",
-    defaultRobots: "index, follow",
-    googleSiteVerification: "",
-    bingSiteVerification: "",
-    twitterHandle: "",
-    gtmId: "GTM-WPX8HLPQ",
+  "global": {
+    "siteName": "GR & Company Stationery",
+    "baseUrl": "https://shrutimaheshwari228-dotcom.github.io/GRStationery",
+    "defaultOgImage": "/assets/stationery_hero_v3.png",
+    "defaultRobots": "index, follow",
+    "googleSiteVerification": "",
+    "bingSiteVerification": "",
+    "twitterHandle": "",
+    "gtmId": "GTM-WPX8HLPQ"
   },
-  pages: {
+  "pages": {
     "/": {
-      label: "Home Page",
-      title: "Find the Best Stationery Shop in Jaipur | GR & Company",
-      description:
-        "Find popular stationery brands at GR & Company. Explore a wide range of school essentials, office supplies, notebooks, registers and art materials.",
-      keywords:
-        "stationery shop in Jaipur, GR & Company Stationery, school essentials Jaipur, office supplies Jaipur, notebooks, registers, art materials, Tripolia Bazar stationery",
-      robots: "index, follow",
-      ogTitle: "Find the Best Stationery Shop in Jaipur | GR & Company",
-      ogDescription:
-        "Find popular stationery brands at GR & Company. Explore a wide range of school essentials, office supplies, notebooks, registers and art materials.",
-      ogImage: "/assets/stationery_hero_v3.png",
-      ogType: "website",
-      priority: "1.0",
-      changefreq: "weekly",
+      "label": "Home Page",
+      "title": "Find the Best Stationery Shop in Jaipur | GR & Company",
+      "description": "Find popular stationery brands at GR & Company. Explore a wide range of school essentials, office supplies, notebooks, registers and art materials.",
+      "keywords": "stationery shop in Jaipur, GR & Company Stationery, school essentials Jaipur, office supplies Jaipur, notebooks, registers, art materials, Tripolia Bazar stationery",
+      "robots": "index, follow",
+      "ogTitle": "Find the Best Stationery Shop in Jaipur | GR & Company",
+      "ogDescription": "Find popular stationery brands at GR & Company. Explore a wide range of school essentials, office supplies, notebooks, registers and art materials.",
+      "ogImage": "/assets/stationery_hero_v3.png",
+      "ogType": "website",
+      "priority": "1.0",
+      "changefreq": "weekly"
     },
     "/about": {
-      label: "About Us",
-      title: "About GR & Company Stationery | Heritage Stationery Store in Jaipur",
-      description:
-        "Discover the story of GR & Company Stationery in Jaipur. Trusted destination for school, office, art, and bulk institutional stationery supplies.",
-      keywords:
-        "about GR & Company Stationery, Jaipur stationery store history, bulk stationery supplier Jaipur, Tripolia Bazar",
-      robots: "index, follow",
-      ogTitle: "About GR & Company Stationery | Jaipur",
-      ogDescription:
-        "Learn about our heritage, values, and wide collection of authentic stationery brands in Jaipur.",
-      ogImage: "/assets/jaipur_market.jpg",
-      ogType: "website",
-      priority: "0.8",
-      changefreq: "monthly",
+      "label": "About Us",
+      "title": "About GR & Company Stationery | Stationery Store in Jaipur",
+      "description": "Discover the story of GR & Company Stationery in Jaipur. Trusted destination for school, office, art, and bulk institutional stationery supplies.",
+      "keywords": "about GR & Company Stationery, Jaipur stationery store history, bulk stationery supplier Jaipur, Tripolia Bazar",
+      "robots": "index, follow",
+      "ogTitle": "About GR & Company Stationery | Jaipur",
+      "ogDescription": "Learn about our heritage, values, and wide collection of authentic stationery brands in Jaipur.",
+      "ogImage": "/assets/jaipur_market.jpg",
+      "ogType": "website",
+      "priority": "0.8",
+      "changefreq": "monthly"
     },
     "/products": {
-      label: "Products & Brands",
-      title: "Shop Stationery by Top Brands | Nataraj, Apsara, Cello, DOMS & More",
-      description:
-        "Browse authentic stationery products from Nataraj, Apsara, Faber-Castell, DOMS, Classmate, Camlin, Cello, Linc, Montex, and Reynolds at GR & Company.",
-      keywords:
-        "stationery brands Jaipur, Nataraj, Apsara, Faber-Castell, DOMS, Classmate, Camlin, Cello pens, Linc pens, Montex, Reynolds",
-      robots: "index, follow",
-      ogTitle: "Shop Stationery by Brand | GR & Company Jaipur",
-      ogDescription:
-        "Explore pens, pencils, notebooks, crayons, and art kits from India's most trusted stationery brands.",
-      ogImage: "/assets/stationery_hero_v3.png",
-      ogType: "website",
-      priority: "0.9",
-      changefreq: "weekly",
+      "label": "Products & Brands",
+      "title": "Shop Stationery by Top Brands | Nataraj, Apsara, Cello, DOMS & More",
+      "description": "Browse authentic stationery products from Nataraj, Apsara, Faber-Castell, DOMS, Classmate, Camlin, Cello, Linc, Montex, and Reynolds at GR & Company.",
+      "keywords": "stationery brands Jaipur, Nataraj, Apsara, Faber-Castell, DOMS, Classmate, Camlin, Cello pens, Linc pens, Montex, Reynolds",
+      "robots": "index, follow",
+      "ogTitle": "Shop Stationery by Brand | GR & Company Jaipur",
+      "ogDescription": "Explore pens, pencils, notebooks, crayons, and art kits from India's most trusted stationery brands.",
+      "ogImage": "/assets/stationery_hero_v3.png",
+      "ogType": "website",
+      "priority": "0.9",
+      "changefreq": "weekly"
     },
     "/gallery": {
-      label: "Gallery",
-      title: "Stationery Showcase & Store Gallery | GR & Company Jaipur",
-      description:
-        "View our curated gallery of school stationery, office desk essentials, fine writing instruments, notebooks, and art supplies in Jaipur.",
-      keywords:
-        "stationery gallery, office supplies showcase, art supplies Jaipur, notebooks collection",
-      robots: "index, follow",
-      ogTitle: "Gallery | GR & Company Stationery Jaipur",
-      ogDescription:
-        "A visual glimpse into our curated product range and the Old Jaipur heritage of GR & Company Stationery.",
-      ogImage: "/assets/gallery_art.jpg",
-      ogType: "website",
-      priority: "0.7",
-      changefreq: "monthly",
+      "label": "Gallery",
+      "title": "Stationery Showcase & Store Gallery | GR & Company Jaipur",
+      "description": "View our curated gallery of school stationery, office desk essentials, fine writing instruments, notebooks, and art supplies in Jaipur.",
+      "keywords": "stationery gallery, office supplies showcase, art supplies Jaipur, notebooks collection",
+      "robots": "index, follow",
+      "ogTitle": "Gallery | GR & Company Stationery Jaipur",
+      "ogDescription": "A visual glimpse into our curated product range and the Old Jaipur heritage of GR & Company Stationery.",
+      "ogImage": "/assets/gallery_art.jpg",
+      "ogType": "website",
+      "priority": "0.7",
+      "changefreq": "monthly"
     },
     "/offers": {
-      label: "Offers & Bulk Deals",
-      title: "Bulk Stationery Enquiries & Seasonal Offers | GR & Company Jaipur",
-      description:
-        "Get special retail and bulk stationery deals for schools, colleges, and offices in Jaipur. Enquire directly on WhatsApp for custom pricing.",
-      keywords:
-        "bulk stationery Jaipur, school stationery offers, corporate office supplies deals Jaipur, wholesale stationery enquiry",
-      robots: "index, follow",
-      ogTitle: "Special Offers & Bulk Enquiries | GR & Company",
-      ogDescription:
-        "Explore seasonal offers and institutional bulk stationery enquiries at GR & Company, Jaipur.",
-      ogImage: "/assets/gallery_office.jpg",
-      ogType: "website",
-      priority: "0.8",
-      changefreq: "weekly",
+      "label": "Offers & Bulk Deals",
+      "title": "Bulk Stationery Enquiries & Seasonal Offers | GR & Company Jaipur",
+      "description": "Get special retail and bulk stationery deals for schools, colleges, and offices in Jaipur. Enquire directly on WhatsApp for custom pricing.",
+      "keywords": "bulk stationery Jaipur, school stationery offers, corporate office supplies deals Jaipur, wholesale stationery enquiry",
+      "robots": "index, follow",
+      "ogTitle": "Special Offers & Bulk Enquiries | GR & Company",
+      "ogDescription": "Explore seasonal offers and institutional bulk stationery enquiries at GR & Company, Jaipur.",
+      "ogImage": "/assets/gallery_office.jpg",
+      "ogType": "website",
+      "priority": "0.8",
+      "changefreq": "weekly"
     },
     "/help": {
-      label: "FAQ & Help",
-      title: "Frequently Asked Questions | GR & Company Stationery Jaipur",
-      description:
-        "Find answers about our store hours, bulk orders, WhatsApp enquiries, available brands, and Jaipur location at GR & Company Stationery.",
-      keywords:
-        "stationery FAQ, GR & Company help, bulk order process, WhatsApp stationery enquiry Jaipur",
-      robots: "index, follow",
-      ogTitle: "Help & FAQs | GR & Company Stationery",
-      ogDescription:
-        "Everything you need to know about enquiring for retail and bulk stationery at GR & Company.",
-      ogImage: "/assets/stationery_hero_v3.png",
-      ogType: "website",
-      priority: "0.6",
-      changefreq: "monthly",
+      "label": "FAQ & Help",
+      "title": "Frequently Asked Questions | GR & Company Stationery Jaipur",
+      "description": "Find answers about our store hours, bulk orders, WhatsApp enquiries, available brands, and Jaipur location at GR & Company Stationery.",
+      "keywords": "stationery FAQ, GR & Company help, bulk order process, WhatsApp stationery enquiry Jaipur",
+      "robots": "index, follow",
+      "ogTitle": "Help & FAQs | GR & Company Stationery",
+      "ogDescription": "Everything you need to know about enquiring for retail and bulk stationery at GR & Company.",
+      "ogImage": "/assets/stationery_hero_v3.png",
+      "ogType": "website",
+      "priority": "0.6",
+      "changefreq": "monthly"
     },
     "/contact": {
-      label: "Contact Us",
-      title: "Contact GR & Company Stationery | Visit Our Jaipur Store",
-      description:
-        "Get in touch with GR & Company Stationery in Tripolia Bazar, Jaipur. Connect via WhatsApp, phone, or email for product availability and bulk enquiries.",
-      keywords:
-        "contact GR & Company Stationery, Tripolia Bazar stationery shop, Jaipur stationery WhatsApp, store timings",
-      robots: "index, follow",
-      ogTitle: "Contact Us | GR & Company Stationery Jaipur",
-      ogDescription:
-        "Visit our store in Jaipur or send an instant WhatsApp enquiry for school, office, and art stationery.",
-      ogImage: "/assets/jaipur_market.jpg",
-      ogType: "website",
-      priority: "0.8",
-      changefreq: "monthly",
+      "label": "Contact Us",
+      "title": "Contact GR & Company Stationery | Visit Our Jaipur Store",
+      "description": "Get in touch with GR & Company Stationery in Tripolia Bazar, Jaipur. Connect via WhatsApp, phone, or email for product availability and bulk enquiries.",
+      "keywords": "contact GR & Company Stationery, Tripolia Bazar stationery shop, Jaipur stationery WhatsApp, store timings",
+      "robots": "index, follow",
+      "ogTitle": "Contact Us | GR & Company Stationery Jaipur",
+      "ogDescription": "Visit our store in Jaipur or send an instant WhatsApp enquiry for school, office, and art stationery.",
+      "ogImage": "/assets/jaipur_market.jpg",
+      "ogType": "website",
+      "priority": "0.8",
+      "changefreq": "monthly"
     },
+    "/blog": {
+      "label": "Stationery Blog",
+      "title": "Stationery Guides, Brand Reviews & Buying Tips | GR & Company Jaipur",
+      "description": "Explore weekly guides, stationery checklists, lead grading explanations, and office desk tips curated by GR & Company Stationery in Jaipur.",
+      "keywords": "stationery blog, school checklist Jaipur, pencil grades explained, office stationery tips, art supplies guide, GR & Company Stationery",
+      "robots": "index, follow",
+      "ogTitle": "Stationery Guides & Buying Tips | GR & Company Jaipur",
+      "ogDescription": "Expert advice on pens, notebooks, school essentials, and bulk stationery from Jaipur's trusted store.",
+      "ogImage": "/assets/stationery_hero_v3.png",
+      "ogType": "website",
+      "priority": "0.8",
+      "changefreq": "weekly"
+    }
   },
-  brandTemplate: {
-    titleTemplate: "{brand} Stationery Products in Jaipur | GR & Company",
-    descriptionTemplate:
-      "Explore genuine {brand} stationery ({categories}) at GR & Company, Jaipur. View catalogue items and enquire directly on WhatsApp for retail & bulk orders.",
-    keywordsTemplate:
-      "{brand} stationery Jaipur, buy {brand} products, {brand} catalogue, GR & Company Stationery",
-    robots: "index, follow",
-    priority: "0.8",
-    changefreq: "weekly",
+  "brandTemplate": {
+    "titleTemplate": "{brand} Stationery Products in Jaipur | GR & Company",
+    "descriptionTemplate": "Explore genuine {brand} stationery ({categories}) at GR & Company, Jaipur. View catalogue items and enquire directly on WhatsApp for retail & bulk orders.",
+    "keywordsTemplate": "{brand} stationery Jaipur, buy {brand} products, {brand} catalogue, GR & Company Stationery",
+    "robots": "index, follow",
+    "priority": "0.8",
+    "changefreq": "weekly"
   },
-  brandOverrides: {},
-  schema: {
-    enabled: true,
-    type: "Store",
-    name: "GR & Company Stationery",
-    description:
-      "Find popular stationery brands at GR & Company. Explore a wide range of school essentials, office supplies, notebooks, registers and art materials.",
-    url: "https://shrutimaheshwari228-dotcom.github.io/GRStationery/",
-    telephone: "+91-9999999999",
-    email: "contact@grcompanystationery.com",
-    priceRange: "₹ - ₹₹",
-    streetAddress: "Tripolia Bazar Area",
-    addressLocality: "Jaipur",
-    addressRegion: "Rajasthan",
-    postalCode: "302002",
-    addressCountry: "IN",
-    openingHours: "Mo-Sa 10:00-20:00",
-    latitude: "26.9239",
-    longitude: "75.8267",
-    image: "/assets/stationery_hero_v3.png",
-    sameAs: [],
+  "brandOverrides": {},
+  "schema": {
+    "enabled": true,
+    "type": "Store",
+    "name": "GR & Company Stationery",
+    "description": "Find popular stationery brands at GR & Company. Explore a wide range of school essentials, office supplies, notebooks, registers and art materials.",
+    "url": "https://shrutimaheshwari228-dotcom.github.io/GRStationery/",
+    "telephone": "+91-9999999999",
+    "email": "contact@grcompanystationery.com",
+    "priceRange": "₹ - ₹₹",
+    "streetAddress": "Tripolia Bazar Area",
+    "addressLocality": "Jaipur",
+    "addressRegion": "Rajasthan",
+    "postalCode": "302002",
+    "addressCountry": "IN",
+    "openingHours": "Mo-Sa 10:00-20:00",
+    "latitude": "26.9239",
+    "longitude": "75.8267",
+    "image": "/assets/stationery_hero_v3.png",
+    "sameAs": []
   },
-  robotsTxt: {
-    allowAll: true,
-    disallowPaths: [],
-    customRules: "",
-  },
+  "robotsTxt": {
+    "allowAll": true,
+    "disallowPaths": [],
+    "customRules": ""
+  }
 };

@@ -9,6 +9,8 @@
     "build": "vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
+    "admin": "node seo-admin/server.cjs",
+    "blog-admin": "node seo-admin/server.cjs",
     "seo-admin": "node seo-admin/server.cjs",
     "lint": "oxlint",
     "preview": "vite preview"

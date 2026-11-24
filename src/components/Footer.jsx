@@ -35,7 +35,7 @@ const Footer = () => {
           <div>
             <h3 className="text-textPrimary font-serif font-semibold text-lg mb-6">Quick Links</h3>
             <ul className="space-y-3">
-              {['Home', 'About', 'Products', 'Gallery', 'Offers', 'Help', 'Contact'].map((item) => (
+              {['Home', 'About', 'Products', 'Blog', 'Gallery', 'Offers', 'Help', 'Contact'].map((item) => (
                 <li key={item}>
                   <Link to={item === 'Home' ? '/' : `/${item.toLowerCase()}`} className="text-textSecondary hover:text-accent transition-colors text-sm">
                     {item}

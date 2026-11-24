@@ -6,11 +6,12 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Products from './pages/Products';
 import BrandCatalogue from './pages/BrandCatalogue';
-import Brands from './pages/Brands';
 import Gallery from './pages/Gallery';
 import Offers from './pages/Offers';
 import FAQ from './pages/FAQ';
 import Contact from './pages/Contact';
+import Blog from './pages/Blog';
+import BlogPost from './pages/BlogPost';
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/products" element={<Products />} />
           <Route path="/products/:brandName" element={<BrandCatalogue />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:slug" element={<BlogPost />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/offers" element={<Offers />} />
           <Route path="/help" element={<FAQ />} />

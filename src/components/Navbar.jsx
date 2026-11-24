@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Menu, X, Search, MessageCircle } from 'lucide-react';
-import { businessInfo, getWhatsAppLink } from '../data/info';
+import { getWhatsAppLink } from '../data/info';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,6 +13,7 @@ const Navbar = () => {
     { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
     { name: 'Products', path: '/products' },
+    { name: 'Blog', path: '/blog' },
     { name: 'Gallery', path: '/gallery' },
     { name: 'Offers', path: '/offers' },
     { name: 'Help', path: '/help' },
