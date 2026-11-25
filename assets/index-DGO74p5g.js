@@ -13,10 +13,10 @@ long list of things to buy. Notebooks, pens, pencils, folders, art supplies,
 geometry boxes and plenty of little things that are easy to forget. Whether
 you're preparing for school, starting college or helping your child get ready
 for a new term, having the right stationery can make every day studying a lot
-easier.<o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-US"><br></span></p>
+easier.</span></p>
 
-<p class="MsoNormal"><span lang="EN-US">But with so many stationery items
-available, what do you actually need?<o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-US"><br></span></p>
+<blockquote><span lang="EN-US"><i>But with so many stationery items
+available, what do you actually need?</i></span></blockquote>
 
 <p class="MsoNormal"><span lang="EN-US">The answer depends on your class, subjects
 and school or college requirements. However, some stationery essentials are
@@ -25,13 +25,13 @@ stationery checklist covering everyday writing supplies, notebooks, organizing
 essentials, geometry tools and a few extras to make studying easier.<o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-US"><br></span></p>
 
 <p class="MsoNormal"><span lang="EN-US">Use it as a starting point before your next
-stationery shopping trip.<o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-US"><br></span></p>
+stationery shopping trip.</span></p>
 
 </h2><h1><span lang="EN-US">1. Everyday writing essentials<o:p></o:p></span></h1><h2>
 
 <p class="MsoNormal"><span lang="EN-US">These are the stationery items most
 students reach for throughout the day, whether they're taking notes, completing
-homework, solving questions or preparing for tests.<o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-US"><br></span></p>
+homework, solving questions or preparing for tests.</span></p>
 
 <p class="MsoNormal"><span lang="EN-US">• Pens: Blue and black pens for everyday
 writing, with a few spare pens in your bag. Red pens can be useful for
@@ -46,11 +46,11 @@ while studying or revising.<br>
 • Pencil pouch: Keeps everyday stationery in one place, making it easier to
 carry and find what you need.<o:p></o:p></span></p>
 
-<p class="MsoNormal"><span style="font-size: inherit; font-weight: inherit;"><br></span></p><p class="MsoNormal"><span style="font-size: inherit; font-weight: inherit;">2. Notebooks and paper essentials</span></p></h2><h2>
+<p class="MsoNormal"><span style="font-size: inherit;"><br></span></p><p class="MsoNormal"><span style="font-size: inherit;">2. Notebooks and paper essentials</span></p></h2><h2>
 
 <p class="MsoNormal"><span lang="EN-US">Not every notebook is the same. Choosing
 the right type can help students keep notes organized and complete
-subject-specific work more comfortably.<o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-US"><br></span></p>
+subject-specific work more comfortably.</span></p>
 
 <p class="MsoNormal"><span lang="EN-US">• Ruled notebooks: Ideal for written
 subjects, class notes, homework, essays and everyday assignments.<br>
@@ -63,12 +63,12 @@ assignments and classroom projects.<br>
 • Rough notebooks: A handy place to practice calculations, solve problems,
 draft answers and work through ideas before writing them neatly.<o:p></o:p></span></p>
 
-<p class="MsoNormal"><span style="font-size: inherit; font-weight: inherit;"><br></span></p><p class="MsoNormal"><span style="font-size: inherit; font-weight: inherit;">3. Geometry and mathematical instruments</span></p></h2><h2>
+<p class="MsoNormal"><span style="font-size: inherit;"><br></span></p><p class="MsoNormal"><span style="font-size: inherit;">3. Geometry and mathematical instruments</span></p></h2><h2>
 
 <p class="MsoNormal"><span lang="EN-US">Mathematics and science often require more
 than just a pencil and notebook. A geometry box can keep the essential tools
-together so students don't have to search for individual instruments before a
-class or test.<o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-US"><br></span></p>
+together, so students don't have to search for individual instruments before a
+class or test.</span></p>
 
 <p class="MsoNormal"><span lang="EN-US">• Compass: For drawing circles and arcs.<br>
 • Divider: For measuring or transferring distances, where needed.<br>
@@ -85,17 +85,17 @@ class or test.<o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-US"><br>
 <p class="MsoNormal"><span lang="EN-US">School projects, art classes and creative
 assignments often require a separate set of stationery. These supplies are
 especially useful for younger students, but some are also needed in middle and
-senior school.<o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-US"><br></span></p>
+senior school.</span></p>
 
-<p class="MsoNormal"><span lang="EN-US">• Colour pencils, crayons and sketch pens:
+<p class="MsoNormal"><span lang="EN-US">• Color pencils, crayons and sketch pens:
 Useful for colouring, diagrams, maps, creative activities and project work.<br>
 • Glue stick or craft glue: For sticking photographs, paper cut-outs, charts
 and other materials in assignments.<br>
 • Scissors: Helpful for cutting paper, craft sheets and project materials.
 Younger students should use age-appropriate scissors.<br>
-• Chart paper and coloured sheets: Useful for presentations, classroom charts,
+• Chart paper and colored sheets: Useful for presentations, classroom charts,
 posters and creative assignments.<br>
-• Watercolours and paint brushes: For painting activities, art classes and
+• Watercolors and paint brushes: For painting activities, art classes and
 school projects. Buy these according to the requirements of the class.<br>
 • Scrapbook: A useful option for collecting pictures, writing short notes,
 making collages and completing creative assignments.</span></p>
@@ -103,14 +103,14 @@ making collages and completing creative assignments.</span></p>
 <p class="MsoNormal"><span lang="EN-US">Art supplies can vary significantly between
 classes, so avoid purchasing a complete art kit unless it is required.<o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-US"><br></span></p>
 
-</h2><h1><span lang="EN-US">5. Organisation and assignment essentials<o:p></o:p></span></h1><h2>
+</h2><h1><span lang="EN-US">5. Organization and assignment essentials<o:p></o:p></span></h1><h2>
 
-<p class="MsoNormal"><span lang="EN-US">Keeping schoolwork organised can make it
+<p class="MsoNormal"><span lang="EN-US">Keeping schoolwork organized can make it
 easier to find notes, submit assignments on time and avoid loose papers getting
-lost in a school bag.<o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-US"><br></span></p>
+lost in a school bag.</span></p>
 
 <p class="MsoNormal"><span lang="EN-US">• Files and folders: Keep worksheets,
-homework, certificates, project sheets and important documents organised.<br>
+homework, certificates, project sheets and important documents organized.<br>
 • Sticky notes and page markers: Mark important pages, write quick reminders,
 note deadlines or add small revision points.<br>
 • Stapler and staples: Useful for attaching assignment sheets, project pages
@@ -128,7 +128,7 @@ deadlines, activities and reminders.<o:p></o:p></span></p>
 <p class="MsoNormal"><span lang="EN-US">College stationery requirements are
 slightly different from school. Students often have fewer fixed stationery
 requirements and need supplies that help them manage lectures, assignments,
-presentations, exams and personal notes.<o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-US"><br></span></p>
+presentations, exams and personal notes.</span></p>
 
 <p class="MsoNormal"><span lang="EN-US">• Notebooks or registers: For lecture
 notes, subject-wise writing and revision.<br>
@@ -148,32 +148,30 @@ diagrams or technical subjects.<br>
 
 <p class="MsoNormal"><span lang="EN-US">If you're heading out for stationery
 shopping, here's a consolidated list you can use to check off the essentials
-before the new academic session begins.<o:p></o:p></span></p>
-
-<p class="MsoNormal"><span lang="EN-US"><br></span></p><p class="MsoNormal"><span lang="EN-US">Writing essentials:<br>
+before the new academic session begins.</span></p><p class="MsoNormal"><span lang="EN-US">Writing essentials:<br>
 ☐ Blue and black pens<br>
 ☐ HB pencils<br>
 ☐ Eraser<br>
 ☐ Sharpener<br>
 ☐ Ruler<br>
 ☐ Highlighters<br>
-☐ Pencil pouch<o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-US"><br></span></p>
+☐ Pencil pouch</span></p>
 
 <p class="MsoNormal"><span lang="EN-US">Notebooks and paper:<br>
 ☐ Subject-wise notebooks<br>
-☐ Maths notebook<br>
+☐ Math notebook<br>
 ☐ Interleaf notebook<br>
 ☐ Rough notebook<br>
 ☐ Drawing book<br>
 ☐ Graph book<br>
-☐ Practical notebooks<o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-US"><br></span></p>
+☐ Practical notebooks</span></p>
 
-<p class="MsoNormal"><span lang="EN-US">Geometry and maths:<br>
+<p class="MsoNormal"><span lang="EN-US">Geometry and math:<br>
 ☐ Geometry box<br>
 ☐ Compass<br>
 ☐ Protractor<br>
 ☐ Set squares<br>
-☐ Ruler<o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-US"><br></span></p>
+☐ Ruler</span></p>
 
 <p class="MsoNormal"><span lang="EN-US">Art and craft:<br>
 ☐ Color pencils<br>
@@ -185,7 +183,7 @@ before the new academic session begins.<o:p></o:p></span></p>
 ☐ Colored sheets<br>
 ☐ Scrapbook<br>
 ☐ Watercolors<br>
-☐ Paint brushes<o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-US"><br></span></p>
+☐ Paint brushes</span></p>
 
 <p class="MsoNormal"><span lang="EN-US">Organization and assignments:<br>
 ☐ Files and folders<br>
@@ -194,7 +192,7 @@ before the new academic session begins.<o:p></o:p></span></p>
 ☐ Stapler and staples<br>
 ☐ Correction tape<br>
 ☐ School diary or planner<br>
-☐ Book and notebook labels<o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-US"><br></span></p>
+☐ Book and notebook labels</span></p>
 
 <p class="MsoNormal"><span lang="EN-US">Use this as a general checklist. Not every
 item is necessary for every class, so adjust it according to the school or
@@ -204,7 +202,7 @@ college stationery list.<o:p></o:p></span></p><p class="MsoNormal"><span lang="E
 
 <p class="MsoNormal"><span lang="EN-US">Stationery shopping can be exciting,
 especially when there are so many colors, designs and products to choose from.
-But buying everything at once isn't always necessary.<o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-US"><br></span></p>
+But buying everything at once isn't always necessary.</span></p>
 
 <p class="MsoNormal"><span lang="EN-US">• Check the school list first: Always
 priorities the stationery recommended by the school. Notebook sizes, rulings
@@ -221,7 +219,7 @@ stationery chosen only for its design.<br>
 and check your school bag the night before classes begin.<o:p></o:p></span></p>
 
 <p class="MsoNormal"><span lang="EN-US">A little planning before shopping can help
-you avoid unnecessary purchases and make sure you have what you actually need.<o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-US"><br></span></p>
+you avoid unnecessary purchases and make sure you have what you actually need.</span></p>
 
 </h2><h1><span lang="EN-US">9. Get ready for the new academic session<o:p></o:p></span></h1><h2>
 
@@ -240,9 +238,9 @@ missing a few essentials, explore the stationery collection at GR &amp; Company
 Stationery to get ready for the year ahead.<o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-US"><br></span></p>
 
 <p class="MsoNormal"><span lang="EN-US">New session, new notebooks, fresh pages and
-a whole lot to learn. Let's get ready!<o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-US"><br></span></p><p class="MsoNormal"><span lang="EN-US"><img src="/assets/blog-1795599669877-9a2289ae-2262-41c9-8e8d-40e3c2cf9e5c.png" alt="9a2289ae-2262-41c9-8e8d-40e3c2cf9e5c.png" class="rounded-xl border border-border shadow-md my-4 max-w-full mx-auto"></span></p><p class="MsoNormal"><span lang="EN-US"><br></span></p>
+a whole lot to learn. Let's get ready!<o:p></o:p></span></p><p class="MsoNormal"><img src="/assets/blog-1795600218814-9a2289ae-2262-41c9-8e8d-40e3c2cf9e5c.webp" alt="9a2289ae-2262-41c9-8e8d-40e3c2cf9e5c.webp" class="rounded-xl border border-border shadow-md my-4 max-w-full mx-auto"></p><p></p>
 
-</h2><h1><span lang="EN-US"><b>Frequently asked questions</b><o:p></o:p></span></h1><div><span lang="EN-US"><b><br></b></span></div><h2>
+</h2><h1><span lang="EN-US"><br></span></h1><h1><span lang="EN-US">Frequently asked questions<o:p></o:p></span></h1><div><span lang="EN-US"><br></span></div><h2>
 
 <p class="MsoNormal"><span lang="EN-US">1.What stationery does a school student need?<br>
 Most school students need notebooks, pens, pencils, erasers, sharpeners,
