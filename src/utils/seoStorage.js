@@ -78,7 +78,7 @@ export function resolvePageSeo(pathname, config) {
   if (cleanPath.startsWith('/blog/')) {
     const slug = decodeURIComponent(cleanPath.replace('/blog/', '')).toLowerCase();
     const matchedBlog = blogs.find((b) => b.slug.toLowerCase() === slug);
-    if (matchedBlog) {
+    if (matchedBlog && matchedBlog.status !== 'draft') {
       const title = `${matchedBlog.title} | ${config.global.siteName}`;
       const description = matchedBlog.excerpt;
       const keywords = matchedBlog.tags ? matchedBlog.tags.join(', ') : '';

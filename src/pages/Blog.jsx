@@ -18,9 +18,14 @@ const Blog = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('All');
 
+  // Only published blogs on the public site
+  const publishedBlogs = useMemo(() => {
+    return blogs.filter((b) => b.status !== 'draft');
+  }, []);
+
   // Filtered blogs
   const filteredBlogs = useMemo(() => {
-    return blogs.filter((blog) => {
+    return publishedBlogs.filter((blog) => {
       const matchesCategory =
         selectedCategory === 'All' || blog.category === selectedCategory;
       const q = searchQuery.toLowerCase().trim();
@@ -32,12 +37,12 @@ const Blog = () => {
         blog.category.toLowerCase().includes(q);
       return matchesCategory && matchesSearch;
     });
-  }, [searchQuery, selectedCategory]);
+  }, [publishedBlogs, searchQuery, selectedCategory]);
 
   const featuredBlog = useMemo(() => {
     if (searchQuery.trim() || selectedCategory !== 'All') return null;
-    return blogs.find((b) => b.featured) || blogs[0];
-  }, [searchQuery, selectedCategory]);
+    return publishedBlogs.find((b) => b.featured) || publishedBlogs[0] || null;
+  }, [publishedBlogs, searchQuery, selectedCategory]);
 
   const regularBlogs = useMemo(() => {
     if (!featuredBlog) return filteredBlogs;
@@ -198,8 +203,26 @@ const Blog = () => {
           </div>
         )}
 
-        {/* Regular Articles Grid */}
-        {regularBlogs.length > 0 ? (
+        {/* Regular Articles Grid or Empty States */}
+        {publishedBlogs.length === 0 ? (
+          <div className="bg-surface border border-border rounded-2xl p-12 text-center max-w-xl mx-auto my-12 shadow-sm">
+            <BookOpen size={44} className="text-accent mx-auto mb-4 opacity-80" />
+            <h3 className="text-2xl font-serif font-bold text-textPrimary mb-3">
+              Fresh Stationery Guides Coming Soon
+            </h3>
+            <p className="text-textSecondary text-sm leading-relaxed mb-6">
+              Our editorial team is preparing comprehensive buying guides, school checklists, and art tips. In the meantime, feel free to enquire about any stationery items directly on WhatsApp!
+            </p>
+            <a
+              href={getWhatsAppLink('Hi GR & Company, I would like to enquire about stationery items.')}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary inline-flex items-center gap-2 text-sm py-2.5 px-6"
+            >
+              <MessageCircle size={16} className="text-[#25D366]" /> Enquire on WhatsApp
+            </a>
+          </div>
+        ) : regularBlogs.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {regularBlogs.map((post) => (
               <article

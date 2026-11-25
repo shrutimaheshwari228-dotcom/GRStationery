@@ -12,9 +12,9 @@ export const defaultSeoConfig = {
   "pages": {
     "/": {
       "label": "Home Page",
-      "title": "Find the Best Stationery Shop in Jaipur | GR & Company",
+      "title": "Find the Best Stationery Shop | GR & Company",
       "description": "Find popular stationery brands at GR & Company. Explore a wide range of school essentials, office supplies, notebooks, registers and art materials.",
-      "keywords": "stationery shop in Jaipur, GR & Company Stationery, school essentials Jaipur, office supplies Jaipur, notebooks, registers, art materials, Tripolia Bazar stationery",
+      "keywords": "stationery shop, stationery Items, wholesale stationery, GR & Company Stationery, school essentials Jaipur, office supplies Jaipur, notebooks, registers, art materials, Tripolia Bazar stationery",
       "robots": "index, follow",
       "ogTitle": "Find the Best Stationery Shop in Jaipur | GR & Company",
       "ogDescription": "Find popular stationery brands at GR & Company. Explore a wide range of school essentials, office supplies, notebooks, registers and art materials.",
