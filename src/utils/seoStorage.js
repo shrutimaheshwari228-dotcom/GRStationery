@@ -79,11 +79,16 @@ export function resolvePageSeo(pathname, config) {
     const slug = decodeURIComponent(cleanPath.replace('/blog/', '')).toLowerCase();
     const matchedBlog = blogs.find((b) => b.slug.toLowerCase() === slug);
     if (matchedBlog && matchedBlog.status !== 'draft') {
-      const title = `${matchedBlog.title} | ${config.global.siteName}`;
-      const description = matchedBlog.excerpt;
-      const keywords = matchedBlog.tags ? matchedBlog.tags.join(', ') : '';
+      const title =
+        matchedBlog.metaTitle || `${matchedBlog.title} | ${config.global.siteName}`;
+      const description = matchedBlog.metaDescription || matchedBlog.excerpt;
+      const keywords =
+        matchedBlog.keywords || (matchedBlog.tags ? matchedBlog.tags.join(', ') : '');
       const canonical = `${baseUrl}/#/blog/${matchedBlog.slug}`;
-      const ogImage = resolveFullAssetUrl(matchedBlog.image || config.global.defaultOgImage, baseUrl);
+      const ogImage = resolveFullAssetUrl(
+        matchedBlog.image || config.global.defaultOgImage,
+        baseUrl
+      );
 
       return {
         title,
@@ -91,7 +96,7 @@ export function resolvePageSeo(pathname, config) {
         keywords,
         robots: config.global.defaultRobots || 'index, follow',
         canonical,
-        ogTitle: matchedBlog.title,
+        ogTitle: matchedBlog.metaTitle || matchedBlog.title,
         ogDescription: description,
         ogImage,
         ogType: 'article',

@@ -22,4 +22,32 @@
   .jaipur-arch {
     @apply rounded-t-jaipur;
   }
+
+  .blog-rich-content h2 {
+    @apply text-2xl sm:text-3xl font-serif font-bold text-textPrimary mt-8 mb-4 tracking-tight;
+  }
+  .blog-rich-content h3 {
+    @apply text-xl sm:text-2xl font-serif font-semibold text-textPrimary mt-6 mb-3 tracking-tight;
+  }
+  .blog-rich-content p {
+    @apply text-base sm:text-lg text-textSecondary/95 leading-relaxed mb-4;
+  }
+  .blog-rich-content ul {
+    @apply list-disc list-outside ml-6 space-y-2 my-4 text-textSecondary text-base sm:text-lg;
+  }
+  .blog-rich-content ol {
+    @apply list-decimal list-outside ml-6 space-y-2 my-4 text-textSecondary text-base sm:text-lg;
+  }
+  .blog-rich-content li {
+    @apply text-textSecondary/95 leading-relaxed pl-1;
+  }
+  .blog-rich-content blockquote {
+    @apply my-6 bg-surface/80 border-l-4 border-accent rounded-r-lg p-4 sm:p-5 text-base sm:text-lg italic text-textPrimary shadow-sm;
+  }
+  .blog-rich-content img {
+    @apply rounded-xl border border-border shadow-md my-6 max-w-full h-auto mx-auto;
+  }
+  .blog-rich-content a {
+    @apply text-accent hover:text-textPrimary underline transition-colors;
+  }
 }

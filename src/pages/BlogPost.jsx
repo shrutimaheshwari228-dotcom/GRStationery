@@ -121,6 +121,11 @@ const BlogPost = () => {
           <div className="flex items-center justify-between pt-2 border-t border-border/60">
             <div className="text-xs text-textSecondary">
               Published by <span className="text-textPrimary font-medium">{blog.author}</span>
+              {blog.authorRole && (
+                <span className="text-textSecondary/80 ml-1.5 font-normal">
+                  ({blog.authorRole})
+                </span>
+              )}
             </div>
 
             <button
@@ -171,43 +176,50 @@ const BlogPost = () => {
         )}
 
         {/* Article Body Content */}
-        <div className="space-y-10 text-textSecondary leading-relaxed font-sans">
-          {blog.sections.map((section, idx) => (
-            <section key={idx} className="space-y-4">
-              {section.heading && (
-                <h2 className="text-xl sm:text-2xl font-serif font-bold text-textPrimary tracking-tight pt-2">
-                  {section.heading}
-                </h2>
-              )}
+        {blog.content ? (
+          <div
+            className="blog-rich-content text-textSecondary text-base sm:text-lg leading-relaxed font-sans"
+            dangerouslySetInnerHTML={{ __html: blog.content }}
+          />
+        ) : blog.sections && blog.sections.length > 0 ? (
+          <div className="space-y-10 text-textSecondary leading-relaxed font-sans">
+            {blog.sections.map((section, idx) => (
+              <section key={idx} className="space-y-4">
+                {section.heading && (
+                  <h2 className="text-xl sm:text-2xl font-serif font-bold text-textPrimary tracking-tight pt-2">
+                    {section.heading}
+                  </h2>
+                )}
 
-              {section.paragraphs?.map((para, pIdx) => (
-                <p key={pIdx} className="text-sm sm:text-base leading-relaxed text-textSecondary/95">
-                  {para}
-                </p>
-              ))}
+                {section.paragraphs?.map((para, pIdx) => (
+                  <p key={pIdx} className="text-sm sm:text-base leading-relaxed text-textSecondary/95">
+                    {para}
+                  </p>
+                ))}
 
-              {section.bulletList && section.bulletList.length > 0 && (
-                <ul className="space-y-2.5 my-3 pl-2">
-                  {section.bulletList.map((item, bIdx) => (
-                    <li key={bIdx} className="flex items-start gap-2.5 text-sm sm:text-base">
-                      <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2.5 flex-shrink-0"></span>
-                      <span>{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              )}
+                {section.bulletList && section.bulletList.length > 0 && (
+                  <ul className="space-y-2.5 my-3 pl-2">
+                    {section.bulletList.map((item, bIdx) => (
+                      <li key={bIdx} className="flex items-start gap-2.5 text-sm sm:text-base">
+                        <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2.5 flex-shrink-0"></span>
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
 
-              {section.tip && (
-                <div className="my-6 bg-surface/80 border-l-4 border-accent rounded-r-lg p-4 sm:p-5 text-sm italic text-textPrimary">
-                  <span className="font-semibold text-accent not-italic block mb-1">
-                    Store Note &amp; Pro Tip:
-                  </span>
-                  {section.tip}
-                </div>
-              )}
-            </section>
-          ))}
-        </div>
+                {section.tip && (
+                  <div className="my-6 bg-surface/80 border-l-4 border-accent rounded-r-lg p-4 sm:p-5 text-sm italic text-textPrimary">
+                    <span className="font-semibold text-accent not-italic block mb-1">
+                      Store Note &amp; Pro Tip:
+                    </span>
+                    {section.tip}
+                  </div>
+                )}
+              </section>
+            ))}
+          </div>
+        ) : null}
 
         {/* Mentioned Brands Chips */}
         {blog.relatedBrands && blog.relatedBrands.length > 0 && (
