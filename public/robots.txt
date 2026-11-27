@@ -1,4 +1,17 @@
 User-agent: *
 Allow: /
+Disallow: /GRStationery/seo-admin/
+Disallow: /GRStationery/admin/
+Disallow: /GRStationery/api/
+Disallow: /GRStationery/src/
+Disallow: /GRStationery/node_modules/
+Disallow: /GRStationery/*.json$
+Disallow: /GRStationery/*.cjs$
+Disallow: /GRStationery/*.md$
+Disallow: /*?*utm_
+Disallow: /*?*fbclid=
+Disallow: /*?*ref=
+Disallow: /*?*sort=
+Disallow: /*?*filter=
 
 Sitemap: https://shrutimaheshwari228-dotcom.github.io/GRStationery/sitemap.xml

@@ -146,7 +146,21 @@ export const defaultSeoConfig = {
   },
   "robotsTxt": {
     "allowAll": true,
-    "disallowPaths": [],
+    "disallowPaths": [
+      "/GRStationery/seo-admin/",
+      "/GRStationery/admin/",
+      "/GRStationery/api/",
+      "/GRStationery/src/",
+      "/GRStationery/node_modules/",
+      "/GRStationery/*.json$",
+      "/GRStationery/*.cjs$",
+      "/GRStationery/*.md$",
+      "/*?*utm_",
+      "/*?*fbclid=",
+      "/*?*ref=",
+      "/*?*sort=",
+      "/*?*filter="
+    ],
     "customRules": ""
   }
 };
